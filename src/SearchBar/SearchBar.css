@@ -1,0 +1,32 @@
+.SearchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+input#SearchBar {
+    border: 3px solid rgb(125, 125, 125);
+    border-right-width: 0px;
+    width: 500px;
+    padding: 10px;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: solid rgb(125, 125, 125);
+}
+
+button#AddButton {
+    background-image: url('./add_icon.png');
+    width: 46px;
+    height: 49px;
+    background-color: black;
+    background-size: cover;
+    border: 3px solid rgb(125, 125, 125);
+    border-left-width: 0px;
+}
+
+button#AddButton:hover {
+    background-color: rgb(50, 50, 50);
+}
