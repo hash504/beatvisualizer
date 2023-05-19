@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/beatvisualizer/static/css/main.4eee2304.css",
-    "main.js": "/beatvisualizer/static/js/main.98b0acb1.js",
-    "static/js/845.5136e3ce.chunk.js": "/beatvisualizer/static/js/845.5136e3ce.chunk.js",
+    "main.css": "/beatvisualizer/static/css/main.d4fec0b2.css",
+    "main.js": "/beatvisualizer/static/js/main.f1ad9ad4.js",
+    "static/js/845.0cc6294f.chunk.js": "/beatvisualizer/static/js/845.0cc6294f.chunk.js",
     "static/media/metronome-sfx.mp3": "/beatvisualizer/static/media/metronome-sfx.49b7764f270d2757e45c.mp3",
     "static/media/metronome-sfx-firstbeat.mp3": "/beatvisualizer/static/media/metronome-sfx-firstbeat.d85cc9b075a7d8621c57.mp3",
     "index.html": "/beatvisualizer/index.html",
-    "main.4eee2304.css.map": "/beatvisualizer/static/css/main.4eee2304.css.map",
-    "main.98b0acb1.js.map": "/beatvisualizer/static/js/main.98b0acb1.js.map",
-    "845.5136e3ce.chunk.js.map": "/beatvisualizer/static/js/845.5136e3ce.chunk.js.map"
+    "main.d4fec0b2.css.map": "/beatvisualizer/static/css/main.d4fec0b2.css.map",
+    "main.f1ad9ad4.js.map": "/beatvisualizer/static/js/main.f1ad9ad4.js.map",
+    "845.0cc6294f.chunk.js.map": "/beatvisualizer/static/js/845.0cc6294f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4eee2304.css",
-    "static/js/main.98b0acb1.js"
+    "static/css/main.d4fec0b2.css",
+    "static/js/main.f1ad9ad4.js"
   ]
 }
