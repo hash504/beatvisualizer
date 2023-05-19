@@ -11,8 +11,8 @@ const redirectUri = 'http://localhost:3000/';
 
 const Spotify = ({ onSearch, searchTerm }) => {
 
-    const clientId = "3b34a668dafb405292e73bed43f382d1";
-    const clientSecret = "91e1d6b99541441e9774a89b6058a3f3";
+    const clientId = "CLIENT_ID";
+    const clientSecret = "CLIENT_SECRET";
 
     const [term, setTerm] = useState("");
 
