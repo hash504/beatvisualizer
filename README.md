@@ -3,8 +3,6 @@
 A website used for synchronizing a song with a metronome.  
 Allows for YouTube links to be inserted, and setting of BPM and Delay.  
 
-In the future, I will be adding functionality to search getsongbpm.com to find the BPM of a song.
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
