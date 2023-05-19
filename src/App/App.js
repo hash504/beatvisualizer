@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import SearchBar from "../SearchBar/SearchBar";
-import GetSongBpmSearch from "../GetSongBpmSearch/GetSongBpmSearch";
+import Spotify from "../Spotify/Spotify";
 import VideoPlayer from "../VideoPlayer/VideoPlayer"
 import "./App.css"
 
@@ -17,13 +17,14 @@ const App = () => {
         setSongBpmTerm(result);
     }
 
+
     return (
         <div>
             <h1>Beat Visualizer</h1>
             <div>
                 <SearchBar onSearch={search} />
                 <VideoPlayer videoUrl={url} />
-                <GetSongBpmSearch onSearch={searchSongBpm} searchTerm={songBpmTerm}/> 
+                <Spotify onSearch={searchSongBpm} searchTerm={songBpmTerm}/> 
             </div>
         </div>
     );

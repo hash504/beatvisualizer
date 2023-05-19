@@ -47,6 +47,7 @@ div#text {
 }
 
 #SongText {
+    font-size: 18px;
     text-align: left;
     padding-left: 15px;
     padding-top: 10px;
@@ -55,10 +56,34 @@ div#text {
 }
 
 #BpmText {
+    font-size: 18px;
+    text-align: right;
+    padding-right: 15px;
+    border-bottom: 2px solid rgb(125, 125, 125);
+}
+
+#SongTextTop {
+    font-size: 24px;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(125, 125, 125);
+}
+
+#BpmTextTop {
     font-size: 24px;
     text-align: right;
     padding-right: 15px;
     border-bottom: 2px solid rgb(125, 125, 125);
+}
+
+#WarningText {
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-top: 10px;
 }
 
 th {
@@ -69,6 +94,7 @@ th {
 }
 
 #SongTextBottom {
+    font-size: 18px;
     text-align: left;
     padding-left: 15px;
     padding-top: 10px;
@@ -76,8 +102,11 @@ th {
 }
 
 #BpmTextBottom {
-    font-size: 24px;
+    font-size: 18px;
     text-align: right;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-right: 15px;
 }
 
