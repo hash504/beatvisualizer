@@ -9,3 +9,20 @@ button.text {
 h1 {
     font-style: italic;
 }
+
+#AboutText {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+a {
+    color: rgb(200, 200, 200);
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+    font-style: italic;
+}

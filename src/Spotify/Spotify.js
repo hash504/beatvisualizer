@@ -25,7 +25,6 @@ const Spotify = ({ onSearch, searchTerm }) => {
     const resultsData = {
         title: [],
         artist: [],
-
         id: [],
         bpm: []
     };
@@ -40,7 +39,6 @@ const Spotify = ({ onSearch, searchTerm }) => {
             data: 'grant_type=client_credentials'
         })
         .then(tokenResponse => {
-            console.log(tokenResponse.data.access_token);
             setToken(tokenResponse.data.access_token);
         })
     }, []);
@@ -108,15 +106,9 @@ const Spotify = ({ onSearch, searchTerm }) => {
             })
             
         }, [])
-        console.log(resultsData);
-
-        
     }
 
-
-
     
-
 
     return (
         <div>

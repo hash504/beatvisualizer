@@ -6,7 +6,7 @@ import Metronome from "../Metronome/Metronome"
 const VideoPlayer = ({ videoUrl }) => {
 
     const [bpm, setBpm] = useState(120);
-    const [delay, setDelay] = useState();
+    const [startPoint, setStartPoint] = useState(0);
     const playerRef = useRef(null);
     var [playback, setPlayback] = useState(false);
 
@@ -14,13 +14,13 @@ const VideoPlayer = ({ videoUrl }) => {
         setBpm(result);
     }
 
-    function changeDelay(result) {
-        setDelay(result);
+    function changeStartPoint(result) {
+        setStartPoint(result);
     }
     
     function handlePlayback(result) {
         setPlayback(result);
-        playerRef.current.seekTo(0);
+        playerRef.current.seekTo(startPoint, 'seconds');
     }
 
     function isReady() {
@@ -30,7 +30,7 @@ const VideoPlayer = ({ videoUrl }) => {
 
     function setTimeToZero() { 
         setPlayback(false);
-        playerRef.current.seekTo(0);
+        playerRef.current.seekTo(startPoint, 'seconds');
     }
 
     // Previously, the metronome would start before the video loaded, and i couldn't find a way to delay the start of the metronome until the video started
@@ -52,7 +52,7 @@ const VideoPlayer = ({ videoUrl }) => {
                 playing={playback}
             />
             <div>
-                <Metronome initialBpm={changeBpm} initialDelay={changeDelay} playback={handlePlayback} />
+                <Metronome initialBpm={changeBpm} initialStartPoint={changeStartPoint} playback={handlePlayback} />
             </div>
             
         </div>

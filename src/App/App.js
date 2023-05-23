@@ -21,6 +21,9 @@ const App = () => {
     return (
         <div>
             <h1>Beat Visualizer</h1>
+            <div id="AboutText">
+                <a href="https://hash504.github.io/beatvisualizer-about/">About Page</a>
+            </div>
             <div>
                 <SearchBar onSearch={search} />
                 <VideoPlayer videoUrl={url} />
